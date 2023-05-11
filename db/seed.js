@@ -100,14 +100,14 @@ const {
       
       await createPost({
         authorId: sandra.id,
-        title: "How does this work?",
-        content: "Seriously, does this even do anything?",
+        title: "Sandra Post",
+        content: "Whatup I'm Sandra.",
       });
 
       await createPost({
         authorId: glamgal.id,
-        title: "Living the Glam Life",
-        content: "Do you even? I swear that half of you are posing.",
+        title: "Glam Post",
+        content: "I am vengeance, I am the night, I am Batman!",
       });
       
       console.log("finished creating posts!");
